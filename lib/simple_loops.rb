@@ -1,8 +1,8 @@
 # Write your methods here
 
-def loop_massage_five_times
+def loop_massage_five_times(message)
 5.times do
-  puts "Hi"
+  puts "#{message}"
   end
 end
 
