@@ -12,13 +12,13 @@ def loop_message_n_times(message, n)
   end
 end
 
-def output_array(array, number)
+
+def output_array(number, array)
   number.times do
   counter = 0
 while counter < array.length do
   puts array[counter]
   counter += 1
-end
-  
+  end
 end
 end
