@@ -23,4 +23,8 @@ end
 end
 
 
+def return_string_array(int_array)
+  str_array = int_array.collect{|i| i.to_s}
+  end
+
 
